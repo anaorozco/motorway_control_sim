@@ -1,0 +1,59 @@
+<edges>
+  <edge id="Start" from="Start" to="00" priority="10" numLanes="3" speed="45.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+ </edge>
+
+   <edge id="S" from="00" to="05" priority="10" numLanes="3" speed="45.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+ </edge>
+ 
+  <edge id="A" from="05" to="50" priority="10" numLanes="3" speed="45.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+ </edge>
+
+  <edge id="X" from="50" to="55" priority="10" numLanes="4" speed="45.00" spreadType="right">
+	<lane index="3" disallow="delivery"/>	
+     <lane index="1" disallow="ignoring"/>
+	<lane index="0" disallow="delivery"/>
+  </edge>
+
+  <edge id="B" from="55" to="60" priority="10" numLanes="4" speed="45.00" spreadType="right">
+	<lane index="3" disallow="delivery"/>
+  </edge>
+
+  <edge id="C" from="60" to="70" priority="10" numLanes="3" speed="45.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+  </edge>
+ 
+  <edge id="D" from="70" to="80" priority="10" numLanes="3" speed="22.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+  </edge>
+ 
+   <edge id="E" from="80" to="90" priority="10" numLanes="3" speed="45.00" spreadType="right">
+	<lane index="2" disallow="delivery"/>
+   </edge>
+
+  <edge id="M" from="10" to="20" priority="2" numLanes="1" speed="16.67" spreadType="right"/>
+  
+  <edge id="N" from="20" to="50" priority="2" numLanes="1" speed="20.00" spreadType="right"/>
+
+  <edge id="Einfahrt" from="Einfahrt" to="10" priority="2" numLanes="1" speed="20.00" spreadType="right"/>
+
+</edges>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

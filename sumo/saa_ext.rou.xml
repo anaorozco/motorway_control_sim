@@ -1,0 +1,22 @@
+<routes>
+<vTypes>
+ <vType id="car1" accel="1.5" decel="8.0" sigma="0.5" tau="1.0" length="5" minGap="1.5" maxSpeed="45" speedFactor="1.2" speedDev="0.1" guishape="passenger"/>
+    <vType id="car2" accel="1.2" decel="7.0" sigma="0.5" tau="1.2" length="5" minGap="2.5" maxSpeed="38" speedFactor="1.0" speedDev="0.1" guishape="passenger" />
+    <vType id="truck1" accel="0.8" decel="5.0" sigma="0.5" tau="1.5" length="10" minGap="3.0" maxSpeed="25" speedFactor="0.8" speedDev="0.1" guishape="delivery" vClass="delivery"/>
+    <vType id="car3" accel="1.5" decel="3.0" sigma="0.5" tau="1.0" length="5" minGap="1.0" maxSpeed="45" speedFactor="1.2" speedDev="0.1" guishape="passenger" vClass="ignoring"/>
+    <vType id="car4" accel="1.2" decel="3.0" sigma="0.5" tau="1.2" length="5" minGap="1.0" maxSpeed="38" speedFactor="1.0" speedDev="0.1" guishape="passenger" vClass="ignoring"/>
+    <vType id="truck2" accel="0.8" decel="3.0" sigma="0.5" tau="1.5" length="10" minGap="1.0" maxSpeed="25" speedFactor="0.8" speedDev="0.1" guishape="delivery" vClass="ignoring"/>
+</vTypes>
+<route id="r1" color="1,1,0" edges="Start S A X B C D E"/>
+    <route id="r2" color="1,1,0" edges="Einfahrt M N X B C D E"/>
+<flows>
+
+        <flow id='car_1_HW_0' route='r1' begin='0' end='3600' vehsPerHour='900' type='car1' departLane='random' departPos='random_free' departSpeed='max'/>
+        <flow id='car_2_HW_0' route='r1' begin='0' end='3600' vehsPerHour='900' type='car2' departLane='random' departPos='random_free' departSpeed='max'/>
+        <flow id='truck_1_HW_0' route='r1' begin='0' end='3600' vehsPerHour='200' type='truck1' departLane='random' departPos='random_free' departSpeed='max'/>
+        
+        <flow id='car_1_OR_0' route='r2' begin='0' end='3600' vehsPerHour='405' type='car3' departLane='best' departPos='random_free' departSpeed='max'/>
+        <flow id='car_2_OR_0' route='r2' begin='0' end='3600' vehsPerHour='405' type='car4' departLane='best' departPos='random_free' departSpeed='max'/>
+        <flow id='truck_1_OR_0' route='r2' begin='0' end='3600' vehsPerHour='90' type='truck2' departLane='best' departPos='random_free' departSpeed='max'/>
+</flows>
+</routes>

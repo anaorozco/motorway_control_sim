@@ -1,0 +1,8 @@
+<pois>
+<poi id="A_vms_80" type="vms_80" lane="A_0" pos="10.0" color="1.0,1.0,1.0" height="30.0" width="30.0" imgFile="C:\Users\ne84cow.ADS\Documents\01_HLMS\05_Python\SAA_EXT\sumo\80.bmp"/>
+<poi id="X_vms_80" type="vms_80" lane="X_0" pos="10.0" color="1.0,1.0,1.0" height="30.0" width="30.0" imgFile="C:\Users\ne84cow.ADS\Documents\01_HLMS\05_Python\SAA_EXT\sumo\80.bmp"/>
+<poi id="B_vms_80" type="vms_80" lane="B_0" pos="10.0" color="1.0,1.0,1.0" height="30.0" width="30.0" imgFile="C:\Users\ne84cow.ADS\Documents\01_HLMS\05_Python\SAA_EXT\sumo\80.bmp"/>
+<poi id="C_vms_80" type="vms_80" lane="C_0" pos="10.0" color="1.0,1.0,1.0" height="30.0" width="30.0" imgFile="C:\Users\ne84cow.ADS\Documents\01_HLMS\05_Python\SAA_EXT\sumo\80.bmp"/>
+
+
+</pois>

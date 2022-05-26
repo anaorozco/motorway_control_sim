@@ -1,0 +1,16 @@
+<nodes>
+<node id="Start" x="0" y="160" type="unregulated"/>
+   <node id="00" x="3000" y="160" type="unregulated"/>
+   <node id="05" x="3900" y="160" type="unregulated"/>
+   <node id="50" x="4050" y="160" type="unregulated"/>
+   <node id="55" x="4080" y="160" type="unregulated"/>
+   <node id="60" x="4250" y="160" type="unregulated"/>
+   <node id="70" x="4800" y="160" type="unregulated"/>
+   <node id="80" x="4900" y="160" type="unregulated"/>
+   <node id="90" x="7000" y="160" type="unregulated"/>
+   
+   <node id="20" x="4010" y="140" type="traffic_light" tl="tl_onramp"/> 
+   <node id="10" x="3980" y="80" type="unregulated"/> 
+   <node id="Einfahrt" x="3980" y="-300" type="unregulated"/>
+
+</nodes>

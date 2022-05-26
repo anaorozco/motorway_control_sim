@@ -1,0 +1,36 @@
+<connections>
+  <connection from="Start" to="S" fromLane="0" toLane="0"/>
+  <connection from="Start" to="S" fromLane="1" toLane="1"/>
+  <connection from="Start" to="S" fromLane="2" toLane="2"/>
+
+  <connection from="S" to="A" fromLane="0" toLane="0"/>
+  <connection from="S" to="A" fromLane="1" toLane="1"/>
+  <connection from="S" to="A" fromLane="2" toLane="2"/>
+  
+  <connection from="A" to="X" fromLane="0" toLane="1"/>
+  <connection from="A" to="X" fromLane="1" toLane="2"/>
+  <connection from="A" to="X" fromLane="2" toLane="3"/>
+
+  <connection from="X" to="B" fromLane="0" toLane="0"/>
+  <connection from="X" to="B" fromLane="1" toLane="1" pass="true"/>
+  <connection from="X" to="B" fromLane="2" toLane="2" pass="true"/>
+  <connection from="X" to="B" fromLane="3" toLane="3" pass="true"/>
+
+  <connection from="B" to="C" fromLane="1" toLane="0"/>
+  <connection from="B" to="C" fromLane="2" toLane="1"/>
+  <connection from="B" to="C" fromLane="3" toLane="2"/>
+  
+  <connection from="C" to="D" fromLane="0" toLane="0"/>
+  <connection from="C" to="D" fromLane="1" toLane="1"/>
+  <connection from="C" to="D" fromLane="2" toLane="2"/>
+  
+  <connection from="D" to="E" fromLane="0" toLane="0"/>
+  <connection from="D" to="E" fromLane="1" toLane="1"/>
+  <connection from="D" to="E" fromLane="2" toLane="2"/>
+
+  <connection from="Einfahrt" to="M" fromLane="0" toLane="0"/>
+  <connection from="M" to="N" fromLane="0" toLane="0"/>
+  <connection from="N" to="X" fromLane="0" toLane="0" pass="true"/>
+  
+  
+</connections>

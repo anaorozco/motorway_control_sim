@@ -1,0 +1,12 @@
+<detector>
+<inductionLoop id="WE" lane="first_cell_node_0__lsa_node_0" pos="-25" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="NS" lane="first_cell_node_1__lsa_node_0" pos="-25" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="EW" lane="first_cell_node_2__lsa_node_0" pos="-25" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="SN" lane="first_cell_node_3__lsa_node_0" pos="-25" freq="1" file="kalman.out" friendlyPos="x"/>
+
+<inductionLoop id="1" lane="first_cell_node_0__lsa_node_0" pos="15" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="17" lane="first_cell_node_1__lsa_node_0" pos="15" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="33" lane="first_cell_node_2__lsa_node_0" pos="15" freq="1" file="kalman.out" friendlyPos="x"/>
+<inductionLoop id="49" lane="first_cell_node_3__lsa_node_0" pos="15" freq="1" file="kalman.out" friendlyPos="x"/>
+
+</detector>

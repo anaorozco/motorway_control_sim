@@ -1,0 +1,10 @@
+<detector>
+<inductionLoop id="r" lane="M_0" pos="5" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="entry" lane="Einfahrt_0" pos="5" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="out_0" lane="C_0" pos="100" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="out_1" lane="C_1" pos="100" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="out_2" lane="C_2" pos="100" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="in_0" lane="A_0" pos="0" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="in_1" lane="A_1" pos="0" freq="1" file="detectors.out" friendlyPos="x"/>
+<inductionLoop id="in_2" lane="A_2" pos="0" freq="1" file="detectors.out" friendlyPos="x"/>
+</detector>
